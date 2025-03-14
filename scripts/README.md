@@ -1,9 +1,14 @@
 # Scripts
 
 ## General guidelines
+before using the *.sh files you should change their acess like this :
+
+* chmod +x generate_claude.sh  
+* chmod +x generate_gemini.sh  
+* chmod +x generate_mistral.sh  
+* chmod +x generate_llama.sh  
 
 Scripts in this folder are meant to be run from the repository base folder. Example:
-
 ```bash
 ./scripts/generate_openapi.sh
 ```
